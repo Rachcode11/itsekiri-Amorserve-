@@ -177,12 +177,10 @@
         }
         .right{
             width: 627px;
-            height: 432px;
+            height: 649px;
             margin-left: 180px;
             margin-bottom: 50px;
             
-            
-
         }
         
         h3{
@@ -214,5 +212,22 @@
     margin-left: 38px;
 
       }
+      button{
+        border: none;
+        border-radius: 12px;
+        padding: 10px;
+        background-color: #E37619;
+        color: white;
+        width: 302px;
+        height: 58px;
+        line-height: 21.94px;
+        margin-top: 20px;
+
+      }
+    }
+    .upcoming{
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 }
