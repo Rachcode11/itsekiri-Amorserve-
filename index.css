@@ -150,13 +150,12 @@
   box-sizing: content-box;
   margin-top: 30px;
   width: 100%;
-  padding-left: 142px;
+  line-height: 40px;
 }
 .nav_section .sec_container2 .left img {
   width: 400px;
   height: 475px;
-  top: 1433px;
-  left: 80px;
+  margin-left: 134px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,20 +164,22 @@
   width: 627px;
   height: 432px;
   margin-left: 180px;
+  margin-bottom: 50px;
 }
 .nav_section .sec_container2 h3 {
   color: #e37619;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 36px;
+  height: 20%;
+  font-size: 24px;
   line-height: 43.88px;
   align-items: center;
 }
 .nav_section .sec_container2 h2 {
   color: #2D2735;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
+  font-weight: 800;
+  font-size: 16px;
   line-height: 29.26px;
   align-items: center;
   margin-top: 10px;
