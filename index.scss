@@ -212,7 +212,7 @@
     }
   }
   .upcoming {
-    h4 {
+    .upcoming_btn {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -225,7 +225,15 @@
       width: 626px;
       margin-top: 10px;
     }
-    .available{
+    .browsering {
+      margin-left: 155px;
+    }
+    .available_container {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+    .available {
       display: flex;
       justify-content: start;
       align-content: center;
@@ -236,24 +244,87 @@
       font-size: 15px;
       font-weight: 600;
       cursor: pointer;
-
-
     }
-    .project{
+    .project {
       margin-top: 10px;
       font-family: "Montserrat", sans-serif;
       font-size: 15px;
       font-weight: 600;
-      color: #2D2735;
+      color: #2d2735;
       cursor: pointer;
     }
-    .selected{
+    .selected {
       text-decoration: underline;
-  color: orange;
+      color: orange;
+      font-weight: bold;
+      font-family: "Montserrat", sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .next_upcoming {
+      display: flex;
+      gap: 10px;
+      margin-top: 25px;
+      margin-left: 155px;
+      img {
+        width: 80%;
+      }
+      h3 {
+        font-weight: bold;
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      p {
+        font-weight: bold;
+        font-family: "Montserrat", sans-serif;
+        width: 80%;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 10px;
+      }
+      span {
+        font-weight: bold;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 25.6px;
+        margin-top: 15px;
+      }
+    }
+    .con_Community {
+      margin-top: 30px;
+      display: flex;
+      img{
+        width: 80%;
+      }
+      .community_Eng {
+        background-color: #2d2735;
+        h3 {
+          color: orange;
+          font-weight: bold;
+          font-family: "Montserrat", sans-serif;
+          font-size: 20px;
+          font-weight: 600;
+        }
+        h4{
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 3;
+  color: white;
+        }
+        p{
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  width: 48%;
+  color: white;
+
+        }
+      }
     }
   }
 }

@@ -205,7 +205,7 @@
   line-height: 21.94px;
   margin-top: 20px;
 }
-.nav_section .upcoming h4 {
+.nav_section .upcoming .upcoming_btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,6 +217,14 @@
   line-height: 43.88px;
   width: 626px;
   margin-top: 10px;
+}
+.nav_section .upcoming .browsering {
+  margin-left: 155px;
+}
+.nav_section .upcoming .available_container {
+  display: flex;
+  align-items: center;
+  gap: 25px;
 }
 .nav_section .upcoming .available {
   display: flex;
@@ -235,7 +243,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: #2D2735;
+  color: #2d2735;
   cursor: pointer;
 }
 .nav_section .upcoming .selected {
@@ -245,4 +253,68 @@
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 600;
+}
+.nav_section .upcoming .next_upcoming {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+  margin-left: 155px;
+}
+.nav_section .upcoming .next_upcoming img {
+  width: 80%;
+}
+.nav_section .upcoming .next_upcoming h3 {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.nav_section .upcoming .next_upcoming p {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  width: 80%;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.nav_section .upcoming .next_upcoming span {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25.6px;
+  margin-top: 15px;
+}
+.nav_section .upcoming .con_Community {
+  margin-top: 30px;
+  display: flex;
+}
+.nav_section .upcoming .con_Community img {
+  width: 80%;
+}
+.nav_section .upcoming .con_Community .community_Eng {
+  background-color: #2d2735;
+}
+.nav_section .upcoming .con_Community .community_Eng h3 {
+  color: orange;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.nav_section .upcoming .con_Community .community_Eng h4 {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 3;
+  color: white;
+}
+.nav_section .upcoming .con_Community .community_Eng p {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  width: 48%;
+  color: white;
 }
