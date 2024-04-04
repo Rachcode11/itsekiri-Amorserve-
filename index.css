@@ -102,7 +102,6 @@
 
 .nav_section {
   background-color: white;
-  padding: 60px;
   width: 100%;
 }
 .nav_section .sec_container {
@@ -333,4 +332,23 @@
   width: 58%;
   color: white;
   margin-left: 141px;
+}
+.nav_section .volunteer .nav_section {
+  padding: 0; /* Override the padding */
+}
+.nav_section .volunteer {
+  background-image: url("./assets//Group 3.svg");
+  background-size: contain; /* Adjusts the background image to fit within the element */
+  padding: 0 !important;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.nav_section .volunteer .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
