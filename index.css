@@ -228,6 +228,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 600;
+  cursor: pointer;
 }
 .nav_section .upcoming .project {
   margin-top: 10px;
@@ -235,6 +236,7 @@
   font-size: 15px;
   font-weight: 600;
   color: #2D2735;
+  cursor: pointer;
 }
 .nav_section .upcoming .selected {
   text-decoration: underline;
