@@ -288,12 +288,25 @@
 .nav_section .upcoming .con_Community {
   margin-top: 30px;
   display: flex;
+  margin-left: 154px;
+}
+.nav_section .upcoming .con_Community .con_img {
+  position: absolute;
 }
 .nav_section .upcoming .con_Community img {
-  width: 80%;
+  width: 72%;
 }
 .nav_section .upcoming .con_Community .community_Eng {
   background-color: #2d2735;
+  width: 65%;
+  margin-left: 332px;
+  margin-top: 36px;
+}
+.nav_section .upcoming .con_Community .community_Eng .content {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  height: 267px;
 }
 .nav_section .upcoming .con_Community .community_Eng h3 {
   color: orange;
@@ -301,6 +314,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 600;
+  margin-left: 141px;
 }
 .nav_section .upcoming .con_Community .community_Eng h4 {
   font-weight: bold;
@@ -309,12 +323,14 @@
   font-weight: 700;
   line-height: 3;
   color: white;
+  margin-left: 141px;
 }
 .nav_section .upcoming .con_Community .community_Eng p {
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: 300;
-  width: 48%;
+  width: 58%;
   color: white;
+  margin-left: 141px;
 }
