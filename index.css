@@ -338,17 +338,205 @@
 }
 .nav_section .volunteer {
   background-image: url("./assets//Group 3.svg");
+  background-repeat: no-repeat;
   background-size: contain; /* Adjusts the background image to fit within the element */
-  padding: 0 !important;
   width: 100%;
-  height: 50%;
+  height: 20%;
   display: flex;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 85px;
+  position: relative;
 }
 .nav_section .volunteer .left {
+  width: 50%;
+  margin-top: 50px;
+}
+.nav_section .volunteer .left h4 {
+  color: #e37619;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.nav_section .volunteer .left p {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  width: 600px;
+  margin-top: 20px;
+}
+.nav_section .volunteer .left button {
+  width: 165px;
+  height: 58px;
+  border-radius: 12px;
+  color: white;
+  background-color: #e37619;
+  border: none;
+  margin-top: 20px;
+}
+.nav_section .volunteer .right img {
+  height: 76%;
+  position: relative;
+}
+.nav_section .sec_container3 {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 10px;
+}
+.nav_section .sec_container3 .left {
+  width: 50%;
+}
+.nav_section .sec_container3 .left img {
+  width: 70%;
+  margin-left: 140px;
+}
+.nav_section .sec_container3 .left h4 {
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 140px;
+}
+.nav_section .sec_container3 .left p {
+  margin-top: 20px;
+  width: 77%;
+  margin-left: 140px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.nav_section .sec_container3 .left button {
+  margin-left: 140px;
+  margin-top: 20px;
+  background-color: #E37619;
+  color: white;
+  width: 225px;
+  height: 58px;
+  border-radius: 12px;
+  border: none;
+}
+.nav_section .sec_container3 .right {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.nav_section .sec_container3 .right .span_div {
+  margin-top: 30px;
+}
+.nav_section .sec_container3 .right h2 {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.94px;
+  margin-top: 10px;
+}
+.nav_section .sec_container3 .right h4 {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.26px;
+}
+.nav_section .sec_container3 .right p {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 55%;
+  margin-top: 10px;
+}
+.nav_section .update {
+  padding: 80px;
+  margin-left: 80px;
+}
+.nav_section .update h4 {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 43.88px;
+  color: #E37619;
+}
+.nav_section .update .update_p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 27px;
+  width: 36%;
+  margin-top: 6px;
+}
+.nav_section .update h3 {
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  width: 97%;
   text-align: center;
+}
+.nav_section .update h2 {
+  margin-top: 20px;
+}
+.nav_section .update .update_div {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.nav_section .update .update_div p {
+  margin-top: 10px;
+  width: 64%;
+  text-align: center;
+  margin-left: 50px;
+}
+.nav_section .Ourblog_container {
+  padding: 80px;
+  margin-left: 80px;
+}
+.nav_section .Ourblog_container h3 {
+  text-align: center;
+  height: 59px;
+  color: #e37619;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.51px;
+}
+.nav_section .Ourblog_container .our_blog {
+  margin-top: 50px;
+  display: flex;
+}
+.nav_section .Ourblog_container .our_blog img {
+  width: 77%;
+  border-radius: 12px;
+}
+.nav_section .Ourblog_container .our_blog .ourblog_content {
+  background-color: #FFFFFF;
+  border: 1px solid #E5EFFF;
+  padding: 20px;
+  border-radius: 12px;
+  width: 70%;
+  position: relative;
+  top: -47px;
+  left: 15px;
+}
+.nav_section .Ourblog_container .our_blog h4 {
+  width: 83%;
+}
+.nav_section .Ourblog_container .our_blog p {
+  width: 85%;
+  margin-top: 10px;
+}
+.nav_section .Ourblog_container .our_blog button {
+  margin-top: 10px;
+  border: none;
+  color: #e37619;
+  background: none;
+  cursor: pointer;
+}
+.nav_section .Ourblog_container .our_blog .next {
+  display: flex;
 }
