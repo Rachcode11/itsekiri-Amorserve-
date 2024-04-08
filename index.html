@@ -263,7 +263,7 @@
 </div> 
 </div>
 </div>
-<div style="background-color: #2d2735; ">
+<div style="background-color: #2d2735; " class="contact">
     <footer style="color: white; display: flex; justify-content: space-between; padding: 60px;">
         <div>
             <img src="./assets//LogoAmor.svg" alt="">
@@ -279,10 +279,10 @@
             <div>
                 <h5>Link</h5>
                 <ul style=" list-style: none; margin-top: 10px; cursor: pointer;">
-                    <li style="margin-top: 10px;">About Us</li>
-                    <li style="margin-top: 10px;">Culture</li>
-                    <li style="margin-top: 10px;">Gallery</li>
-                    <li style="margin-top: 10px;">Volunteer</li>
+                    <li style="margin-top: 10px;" id="about">About Us</li>
+                    <li style="margin-top: 10px;" id="culture">Culture</li>
+                    <li style="margin-top: 10px;" id="gallery">Gallery</li>
+                    <li style="margin-top: 10px;" id="volunteer">Volunteer</li>
                 </ul>
             </div>
             <div>
@@ -299,9 +299,17 @@
             <div style="margin-top: 10px;">
                
                 <div>
-                    <input type="text" style="width: 364px; height: 48px; border-radius: 12px; border: 1px;" placeholder="Enter your enail">
-                    <button style=" cursor: pointer;width: 130px; height: 48px; border-radius: 12px; background-color: #e37619; color: white;border: none;">Subscribe</button>
+                    <input id="emailInput" type="text" style="width: 364px; height: 48px; border-radius: 12px; border: 1px; padding-left: 10px;" placeholder="Enter your email" 
+                           style="::placeholder {
+                               color: #999;
+                               font-style: italic;
+                               opacity: 0.8; 
+                               border: none;
+                           }">
+                    <button id="subscribeButton" style="cursor: pointer; width: 130px; height: 48px; border-radius: 12px; background-color: #e37619; color: white; border: none;">Subscribe</button>
                 </div>
+                
+                
                 <p style="width: 300px; height: 54px; margin-top: 15px; font-family: Montserrat, sans-serif; font-weight: 500; font-size: 10px;">By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company.</p>
             </div>
         </div>
