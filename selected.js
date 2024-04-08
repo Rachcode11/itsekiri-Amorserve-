@@ -1,5 +1,4 @@
 const spans = document.querySelectorAll('.available span');
-// const lists = document.querySelectorAll('.list li');
 
 console.log(spans, "uuuuuuuuuuuuuuu");
 
@@ -18,14 +17,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
   if (aboutNavItem && aboutSection) {
       aboutNavItem.addEventListener("click", function() {
-          // Scroll to the top of the aboutSection
           window.scrollTo({
-              top: aboutSection.offsetTop - 50, // Adjust offset as needed
+              top: aboutSection.offsetTop - 50, 
               behavior: "smooth"
           });
 
-          // Optionally, toggle a 'selected' class on the clicked nav item
-          // and remove 'selected' class from other nav items
+  
           const navItems = document.querySelectorAll(".top_nav .list li");
           navItems.forEach(item => {
               item.classList.remove("selected");
@@ -63,14 +60,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
   if (aboutNavItem && aboutSection) {
       aboutNavItem.addEventListener("click", function() {
-          // Scroll to the top of the aboutSection
           window.scrollTo({
-              top: aboutSection.offsetTop - 50, // Adjust offset as needed
+              top: aboutSection.offsetTop - 50, 
               behavior: "smooth"
           });
 
-          // Optionally, toggle a 'selected' class on the clicked nav item
-          // and remove 'selected' class from other nav items
+ 
           const navItems = document.querySelectorAll(".top_nav .list li");
           navItems.forEach(item => {
               item.classList.remove("selected");
@@ -86,14 +81,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
   if (aboutNavItem && aboutSection) {
       aboutNavItem.addEventListener("click", function() {
-          // Scroll to the top of the aboutSection
           window.scrollTo({
-              top: aboutSection.offsetTop - 50, // Adjust offset as needed
+              top: aboutSection.offsetTop - 50, 
               behavior: "smooth"
           });
 
-          // Optionally, toggle a 'selected' class on the clicked nav item
-          // and remove 'selected' class from other nav items
           const navItems = document.querySelectorAll(".top_nav .list li");
           navItems.forEach(item => {
               item.classList.remove("selected");
@@ -109,14 +101,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
   if (aboutNavItem && aboutSection) {
       aboutNavItem.addEventListener("click", function() {
-          // Scroll to the top of the aboutSection
           window.scrollTo({
-              top: aboutSection.offsetTop - 50, // Adjust offset as needed
+              top: aboutSection.offsetTop - 50, 
               behavior: "smooth"
           });
 
-          // Optionally, toggle a 'selected' class on the clicked nav item
-          // and remove 'selected' class from other nav items
+
           const navItems = document.querySelectorAll(".top_nav .list li");
           navItems.forEach(item => {
               item.classList.remove("selected");
@@ -132,23 +122,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
   if (subscribeButton && emailInput) {
       subscribeButton.addEventListener("click", function(event) {
-          // Prevent the default form submission behavior
           event.preventDefault();
 
-          // Get the entered email value
           const email = emailInput.value.trim();
 
-          // Validate the email using a regular expression
           const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
           if (emailPattern.test(email)) {
-              // Email is valid, perform further actions here (e.g., submit the form)
               console.log("Valid email:", email);
-              // Replace 'console.log' with form submission logic or other actions
-              alert("Thank you for subscribing!");
-              // Reset the input field after successful subscription
+ alert("Thank you for subscribing!");
               emailInput.value = "";
           } else {
-              // Invalid email format, display an error message or take appropriate action
               alert("Please enter a valid email address.");
           }
       });
